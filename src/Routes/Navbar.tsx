@@ -87,7 +87,7 @@ const Navbar = () => {
           } transition-transform duration-300 ease-in-out sm:hidden bg-[#8E8FFA] shadow-md`}
         >
           <img
-            className="h-12 absolute right-4 top-4 cursor-pointer"
+            className="h-12 absolute right-12 top-6 cursor-pointer"
             onClick={toggleNavbar}
             src={close}
             alt="close"
