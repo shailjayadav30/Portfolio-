@@ -1,6 +1,7 @@
 import Button from "../Components/Button";
 import Navbar from "./Navbar";
 import girl from "../images/girl2.png";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -25,7 +26,11 @@ const Home = () => {
           <p className="text-gray-400 mb-6">
             with a passion for crafting dynamic and responsive web experiences.
           </p>
-          <Button text="About Me" />
+         <Link duration={500}
+                  smooth={true}
+                  offset={-70} to="about"> 
+         <Button text="About Me" />
+         </Link>
         </div>
       </div>
     </>

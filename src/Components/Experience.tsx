@@ -39,11 +39,11 @@ const Experience = () => {
           <p className="text-sm text-gray-900">{item.title2}</p>
         </div>
       ))}
-      <div className="mt-4">
+      <a href="https://docs.google.com/document/d/1GeKoh-uhrnjiY5OVuQavd-SBLzhUBMAr/edit?usp=drive_link&ouid=115010348523230951524&rtpof=true&sd=true" className="mt-4">
         <Button text="Resume" />
-      </div>
+      </a>
     </div>
   );
 };
-
+  
 export default Experience;

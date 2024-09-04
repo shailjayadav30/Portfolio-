@@ -59,9 +59,9 @@ const Navbar = () => {
               <li key={item.id}>
                 <Link
                   to={item.path}
+                  duration={500}
                   smooth={true}
                   offset={-70}
-                  duration={500}
                   className="text-lg hover:text-blue-500 text-[#3b393e] transition duration-300"
                 >
                   {item.title}
@@ -74,7 +74,7 @@ const Navbar = () => {
 
         {/* MOBILE MENU ICON */}
         <img
-          className="h-12 block sm:hidden cursor-pointer"
+          className="h-8 block sm:hidden cursor-pointer"
           onClick={toggleNavbar}
           src={menu}
           alt="menu"
