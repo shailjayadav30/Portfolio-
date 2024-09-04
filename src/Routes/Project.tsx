@@ -4,14 +4,25 @@ import editor from "../images/editor.png";
 import dragdrop from "../images/Dragdrop.png";
 import bookai from "../images/bookaii.png";
 import bmi from "../images/bmi.png";
+import login from "../images/login.png"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Project = () => {
   const projectItems = [
     {
-      title: "Text Editor",
+      title: "Login Page",
       id: 1,
+      liveSite: "https://auth-page-ui.vercel.app/login",
+      alt: "Login page",
+      text: "A simple login page template.",
+      github: "https://github.com/shailjayadav30/AuthPage",
+      src: login,
+    },
+    {
+      
+      title: "Text Editor",
+      id: 2,
       liveSite: "https://texteditor-01.netlify.app/",
       alt: "text editor",
       text: "A simple text editor built with React.",
@@ -20,7 +31,7 @@ const Project = () => {
     },
     {
       title: "Drag&Drop",
-      id: 2,
+      id: 3,
       liveSite: "https://dragdropmade.netlify.app/",
       alt: "dragdrop",
       text: "A drag and drop interface made with HTML, CSS, and JavaScript.",
@@ -29,7 +40,7 @@ const Project = () => {
     },
     {
       title: "Website",
-      id: 3,
+      id: 4,
       liveSite: "https://bookaiwebsite.netlify.app/",
       alt: "bookai website",
       text: "An AI-powered book recommendation website.",
@@ -38,22 +49,14 @@ const Project = () => {
     },
     {
       title: "BMI Calculator",
-      id: 4,
+      id: 5,
       liveSite: "https://health-check00001.netlify.app/",
       alt: "bmi calculator",
       text: "A BMI calculator built with React.",
       github: "https://github.com/shailjayadav30/BmiCalculator",
       src: bmi,
     },
-    {
-      title: "Login Page",
-      id: 5,
-      liveSite: "",
-      alt: "Login page",
-      text: "A simple login page template.",
-      github: "",
-      src: bmi,
-    },
+   
     {
       title: "Todo List",
       id: 6,
