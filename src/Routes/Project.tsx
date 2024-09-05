@@ -5,6 +5,7 @@ import dragdrop from "../images/Dragdrop.png";
 import bookai from "../images/bookaii.png";
 import bmi from "../images/bmi.png";
 import login from "../images/login.png"
+import todo from "../images/todo.png"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -20,33 +21,35 @@ const Project = () => {
       src: login,
     },
     {
-      
-      title: "Text Editor",
-      id: 2,
-      liveSite: "https://texteditor-01.netlify.app/",
-      alt: "text editor",
-      text: "A simple text editor built with React.",
-      github: "https://github.com/shailjayadav30/Editor",
-      src: editor,
-    },
-    {
-      title: "Drag&Drop",
-      id: 3,
-      liveSite: "https://dragdropmade.netlify.app/",
-      alt: "dragdrop",
-      text: "A drag and drop interface made with HTML, CSS, and JavaScript.",
-      github: "https://github.com/shailjayadav30/Drag-Drop",
-      src: dragdrop,
-    },
-    {
       title: "Website",
-      id: 4,
+      id: 2,
       liveSite: "https://bookaiwebsite.netlify.app/",
       alt: "bookai website",
       text: "An AI-powered book recommendation website.",
       github: "https://github.com/shailjayadav30/bookaiwebsite",
       src: bookai,
     },
+    {
+      title: "Todo List",
+      id: 3,
+      liveSite: "",
+      alt: "todo list",
+      text: "A basic todo list app.",
+      github: "https://github.com/shailjayadav30/Todo-mern",
+      src: todo,
+    },
+  
+    
+    {
+      title: "Drag&Drop",
+      id: 4,
+      liveSite: "https://dragdropmade.netlify.app/",
+      alt: "dragdrop",
+      text: "A drag and drop interface made with HTML, CSS, and JavaScript.",
+      github: "https://github.com/shailjayadav30/Drag-Drop",
+      src: dragdrop,
+    },
+    
     {
       title: "BMI Calculator",
       id: 5,
@@ -56,16 +59,17 @@ const Project = () => {
       github: "https://github.com/shailjayadav30/BmiCalculator",
       src: bmi,
     },
-   
     {
-      title: "Todo List",
+      
+      title: "Text Editor",
       id: 6,
-      liveSite: "",
-      alt: "todo list",
-      text: "A basic todo list app.",
-      github: "",
-      src: bmi,
+      liveSite: "https://texteditor-01.netlify.app/",
+      alt: "text editor",
+      text: "A simple text editor built with React.",
+      github: "https://github.com/shailjayadav30/Editor",
+      src: editor,
     },
+    
   ];
 
   const settings = {

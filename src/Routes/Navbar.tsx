@@ -48,7 +48,7 @@ const Navbar = () => {
   return (
     <>
       <div className="z-10 flex justify-between p-6 items-center  shadow-md">
-        <div className="logo text-[#3b393e] capitalize font-bold text-2xl">
+        <div className="logo  text-[#3b393e] capitalize font-bold text-2xl">
           Shailja
         </div>
 
@@ -62,7 +62,7 @@ const Navbar = () => {
                   duration={500}
                   smooth={true}
                   offset={-70}
-                  className="text-lg hover:text-blue-500 text-[#3b393e] transition duration-300"
+                  className="  text-lg hover:text-blue-500 text-[#3b393e] transition duration-300"
                 >
                   {item.title}
                 </Link>
